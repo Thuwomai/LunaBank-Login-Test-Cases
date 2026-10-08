@@ -35,6 +35,7 @@ A total of **8 test cases** were created and executed.
 | TC_LOGIN_006 | Login thất bại khi nhập quá số lần giới hạn | Edge Case | FAIL | HIGH |
 | TC_LOGIN_007 | Login thất bại với Email sai định dạng | Edge Case | FAIL | MEDIUM |
 | TC_LOGIN_008 | Login với việc sửa lại dữ liệu nhập vào | Edge Case | FAIL | LOW |
+
 The test cases include:
 
 - **Happy Path:** 1 case
