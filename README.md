@@ -58,7 +58,7 @@ These results were recorded directly in the test case file together with the Act
 
 The complete test cases and execution results are available in the Excel file:
 
-**[Test Case LunaBank.xlsx](./Test%20Case%20LunaBank%286%29.xlsx)**
+[**[Test Case LunaBank.xlsx](./Test%20Case%20LunaBank%286%29.xlsx)**](https://github.com/Thuwomai/LunaBank-Login-Test-Cases/blob/main/Test%20Case%20LunaBank.xlsx)
 
 The Excel file contains:
 
