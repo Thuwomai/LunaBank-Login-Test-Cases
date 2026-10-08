@@ -21,16 +21,20 @@ The test cases cover:
 - Invalid email format
 - Editing previously entered login information
 
-## Test cases
+## Test Cases
 
 A total of **8 test cases** were created and executed.
 
-| Result | Number |
-|---|---:|
-| PASS | 5 |
-| FAIL | 3 |
-| Total | 8 |
-
+| Test Case ID | Test Case Name | Type | Status | Priority |
+|---|---|---|---|---|
+| TC_LOGIN_001 | Login thành công với dữ liệu đúng | Happy Path | PASS | HIGH |
+| TC_LOGIN_002 | Login thất bại với mật khẩu sai | Negative Case | PASS | HIGH |
+| TC_LOGIN_003 | Login thất bại khi bỏ trống tất cả thông tin bắt buộc | Negative Case | PASS | HIGH |
+| TC_LOGIN_004 | Login thất bại khi bỏ trống một trong hai thông tin bắt buộc | Negative Case | PASS | HIGH |
+| TC_LOGIN_005 | Login thất bại khi tài khoản bị khoá tạm thời hoặc khoá vĩnh viễn. | Negative Case | PASS | MEDIUM |
+| TC_LOGIN_006 | Login thất bại khi nhập quá số lần giới hạn | Edge Case | FAIL | HIGH |
+| TC_LOGIN_007 | Login thất bại với Email sai định dạng | Edge Case | FAIL | MEDIUM |
+| TC_LOGIN_008 | Login với việc sửa lại dữ liệu nhập vào | Edge Case | FAIL | LOW |
 The test cases include:
 
 - **Happy Path:** 1 case
@@ -54,11 +58,9 @@ Three test cases were marked as **FAIL** because the actual behavior did not mat
 
 These results were recorded directly in the test case file together with the Actual Result, Status, Priority, and Notes.
 
-## Test artifact
+## Full Test Case
 
-The complete test cases and execution results are available in the Excel file:
-
-[**[Test Case LunaBank.xlsx]([./Test%20Case%20LunaBank%286%29.xlsx](https://github.com/Thuwomai/LunaBank-Login-Test-Cases/blob/main/Test%20Case%20LunaBank.xlsx))**]
+[View / Download Test Case LunaBank.xlsx](./Test%20Case%20LunaBank.xlsx)
 
 The Excel file contains:
 
